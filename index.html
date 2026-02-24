@@ -45,11 +45,24 @@
 
     .hero {
         text-align: center;
+        background: url('https://images.unsplash.com/photo-1581090700227-64a831aa0597?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+        color: white;
+        padding: 100px 20px;
+        border-radius: 10px;
     }
 
     .hero h2 {
-        color: #6a0dad;
-        font-size: 28px;
+        color: white;
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    }
+
+    .hero p {
+        font-size: 18px;
+        max-width: 700px;
+        margin: auto;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
     }
 
     .programs {
@@ -65,10 +78,19 @@
         border-radius: 10px;
         width: 280px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        text-align: center;
     }
 
     .card h3 {
         color: #6a0dad;
+    }
+
+    .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
     }
 
     .contact-form {
@@ -131,7 +153,7 @@
 <section class="hero" id="about">
     <h2>Excellence in Mathematics Education</h2>
     <p>
-        Located in Canada, Palaris Maths School was founded 13 years ago by a Master of Mathematics graduate 
+        Located in Canada, Palaris Maths School was founded in 2013 by a Master of Mathematics graduate 
         with over 20 years of teaching experience. We offer both in-person and online classes 
         to help students succeed from Grade 1 to Grade 12.
     </p>
@@ -141,14 +163,17 @@
     <h2 style="text-align:center; color:#6a0dad;">Our Programs</h2>
     <div class="programs">
         <div class="card">
+            <img src="https://images.unsplash.com/photo-1596496054340-9c4d69961c2d?auto=format&fit=crop&w=500&q=80" alt="Primary School">
             <h3>Primary (Grade 1–5)</h3>
             <p>Strong foundation in numbers, logic, and problem-solving skills.</p>
         </div>
         <div class="card">
+            <img src="https://images.unsplash.com/photo-1596495577886-073c10d182b1?auto=format&fit=crop&w=500&q=80" alt="Middle School">
             <h3>Middle School (Grade 6–8)</h3>
             <p>Pre-algebra, ratios, percentages, and structured exam preparation.</p>
         </div>
         <div class="card">
+            <img src="https://images.unsplash.com/photo-1581093448792-27d7f30b84d0?auto=format&fit=crop&w=500&q=80" alt="High School">
             <h3>Secondary (Grade 9–12)</h3>
             <p>Algebra, geometry, trigonometry, functions, and advanced exam support.</p>
         </div>
